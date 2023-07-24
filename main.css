@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(234,235,237)
+}
+
+main {
+    width: 600px;
+    height: 500px;
+    /* background-color: rgb(234,235,237); */
+    margin-left: calc((100% - 600px) /2);
+    display: inline-block;
+    margin-top: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main > div {
+    height: 500px;
+    display: inline-block;
+    float: left;
+}
+#left {
+    /* background-color: blueviolet;  */
+    width: 55%;
+}
+
+#right {
+    /* background-color:brown;  */
+    text-align: center; 
+    width: 45%;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 75px;   
+}
+
+#textmedium {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#textsmall {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+button {
+    padding: 10px 15px;
+    background-color:rgb(105,111,137) ;
+    border: 0;
+    color: white;
+    font-weight: 700;
+}
+
+p {
+    color:rgb(105,111,137) ;
+}
